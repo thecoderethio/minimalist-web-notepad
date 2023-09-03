@@ -2,10 +2,10 @@ version: "2.4"
 services:
   minimalist-web-notepad:
     build: .
-    container_name: minimalist-web-notepad
+    container_name: minimalist-web-notepads
     restart: always
     ports:
-     - "938:80"
+     - "7628:80"
     volumes:
      - /home/ubuntu/Docker/notepadweb:/var/www/minimalist-web-notepad/_tmp
 
